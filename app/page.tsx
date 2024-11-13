@@ -3,6 +3,8 @@ import { useEffect } from "react";
 import Lenis from "lenis";
 import { Landing } from "./pages/Landing";
 import { Services } from "./pages/Services";
+import { Projects } from "./components/Projects";
+import { FooterComp } from "./components/footer";
 
 export default function Home() {
   useEffect(() => {
@@ -24,6 +26,8 @@ export default function Home() {
     <div>
       <Landing />
       <Services />
+      <Projects />
+      <FooterComp />
     </div>
   );
 }
