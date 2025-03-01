@@ -21,6 +21,12 @@ export const WhatWeOffer = () => {
           <div className="grid grid-cols-2 items-center  gap-10 ">
             <div>
               <Accordion type="single" collapsible defaultValue="design">
+              <AccordionItem value="mvp">
+                  <AccordionTrigger  className="text-4xl" onClick={()=>setActiveItem("mvp")}>mvp</AccordionTrigger>
+                  <AccordionContent>
+                    Yes. It adheres to the WAI-ARIA design pattern.
+                  </AccordionContent>
+                </AccordionItem>
                 <AccordionItem value="design" >
                   <AccordionTrigger className="text-4xl" onClick={()=>setActiveItem("design")}>design</AccordionTrigger>
                   <AccordionContent>
@@ -33,12 +39,7 @@ export const WhatWeOffer = () => {
                     Yes. It adheres to the WAI-ARIA design pattern.
                   </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value="mvp">
-                  <AccordionTrigger  className="text-4xl" onClick={()=>setActiveItem("mvp")}>MVP</AccordionTrigger>
-                  <AccordionContent>
-                    Yes. It adheres to the WAI-ARIA design pattern.
-                  </AccordionContent>
-                </AccordionItem>
+               
               </Accordion>
             </div>
             <div className="flex justify-center">{

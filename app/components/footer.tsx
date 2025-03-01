@@ -5,10 +5,10 @@ export function FooterComp (){
                 <div className="underline italic text-3xl">get in touch</div>
                 <div className="text-7xl font-bold">journey to the moon starts here.</div>
                 <div className="flex space-x-10">
-                    <div>x</div>
-                    <div>mail</div>
+                    <div><a href="https://x.com/lunarlabshq">x</a></div>
+                    <div><a href="mailto:hq.lunarlabs@gmail.com">mail</a></div>
                     <div>github</div>
-                    <div>linkedin</div>
+                    <div><a href="https://www.linkedin.com/company/lunarlabshq">linkedin</a></div>
                     <div>discord</div>
 
                 </div>

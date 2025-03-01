@@ -17,8 +17,8 @@ export const Navbar = () => {
           </svg>
         </div>
 
-        <button className="ml-auto bg-[#282828] text-white p-1 px-3 rounded-xl text-lg font-bold shadow-xl">
-          book a call
+       <button className="ml-auto bg-[#282828] text-white p-1 px-3 rounded-xl text-lg font-bold shadow-xl" >
+       <a href="https://cal.com/rishabhknows">book a call</a>
         </button>
       </div>
     </div>
